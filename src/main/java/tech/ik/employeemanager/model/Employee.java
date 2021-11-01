@@ -12,7 +12,7 @@ public class Employee implements Serializable {
     private Long id;
     private String name;
     private String email;
-    private String jobTile;
+    private String jobTitle;
     private String phone;
     private String imageUrl;
     @Column(nullable = false, updatable = false)
@@ -20,10 +20,10 @@ public class Employee implements Serializable {
 
     public Employee() {}
 
-    public Employee(String name, String email, String jobTile, String phone, String imageUrl, String employeeCode) {
+    public Employee(String name, String email, String jobTitle, String phone, String imageUrl, String employeeCode) {
         this.name = name;
         this.email = email;
-        this.jobTile = jobTile;
+        this.jobTitle = jobTitle;
         this.phone = phone;
         this.imageUrl = imageUrl;
         this.employeeCode = employeeCode;
@@ -38,8 +38,8 @@ public class Employee implements Serializable {
     public String getEmail() {return email;}
     public void setEmail(String email) {this.email = email;}
 
-    public String getJobTile() {return jobTile;}
-    public void setJobTile(String jobTile) {this.jobTile = jobTile;}
+    public String getJobTitle() {return jobTitle;}
+    public void setJobTitle(String jobTitle) {this.jobTitle = jobTitle;}
 
     public String getPhone() {return phone;}
     public void setPhone(String phone) {this.phone = phone;}
@@ -56,7 +56,7 @@ public class Employee implements Serializable {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +
-                ", jobTitle='" + jobTile + '\'' +
+                ", jobTitle='" + jobTitle + '\'' +
                 ", phone='" + phone + '\'' +
                 ", imageUrl='" + imageUrl + '\'' +
                 '}';

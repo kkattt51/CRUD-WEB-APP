@@ -6,10 +6,12 @@ import tech.ik.employeemanager.exception.UserNotFoundException;
 import tech.ik.employeemanager.model.Employee;
 import tech.ik.employeemanager.repo.EmployeeRepo;
 
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.UUID;
 
 @Service
+@Transactional
 public class EmployeeService {
     private final EmployeeRepo employeeRepo;
 
