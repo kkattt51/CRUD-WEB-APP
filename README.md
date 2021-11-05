@@ -8,6 +8,7 @@ Created by @kkattt51
 - MySQL Database
 ### Front-end:
 - TypeScript
+- JavaScript
 - Angular
 - HTML
 - CSS
