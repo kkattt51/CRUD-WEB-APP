@@ -8,6 +8,7 @@ import tech.ik.employeemanager.service.EmployeeService;
 
 import java.util.List;
 
+@CrossOrigin("*")
 @RestController
 @RequestMapping("/employee")
 public class EmployeeResource {
