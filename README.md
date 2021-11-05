@@ -4,8 +4,9 @@ Created by @kkattt51
 ### Technologies in project:
 ### Back-end:
 - Java
-- Spring Boot
+- Spring
 - MySQL Database
+- Hibernate ORM
 ### Front-end:
 - TypeScript
 - JavaScript
